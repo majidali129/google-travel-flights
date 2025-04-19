@@ -62,7 +62,7 @@ const Header = ({ setIsOpen }: HeaderProps) => {
       <div className="h-12 lg:hidden">
         <ul className="flex  items-end  justify-around  gap-[6px] h-full">
           {navItems.map((item) => (
-            <NavLink to={item.href} className={" flex items-center"}>
+            <NavLink to={item.href} className={" flex items-center nth-[3]:text-primary nth-[3]:border-b-3 nth-[3]:border-primary nth-[3]:pb-[9px] nth-[3]:-mb-[13px]"}>
               <span className="text-sm font-semibold tracking-wide">{item.label}</span>
             </NavLink>
           ))}
