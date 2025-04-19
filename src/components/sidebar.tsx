@@ -6,7 +6,7 @@ const Sidebar = forwardRef<HTMLElement, { isOpen: boolean }>(({ isOpen }, ref) =
   return (
     <aside
       ref={ref}
-      className={`w-[256px] bg-[#303133] fixed z-50 bottom-0 left-0 h-[calc(100vh-64px)] transition-all duration-300 ease-in-out ${
+      className={`w-[256px] bg-[#303133] fixed z-50 bottom-0 left-0 h-[calc(100vh-56px)] transition-all duration-300 ease-in-out ${
         isOpen ? "translate-x-0" : "-translate-x-[300px]"
       } grid grid-rows-[30%_40%_30%] lg:grid-rows-[33%_33%_34%]`}
     >
