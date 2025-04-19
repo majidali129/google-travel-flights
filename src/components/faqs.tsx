@@ -71,7 +71,7 @@ const Faqs = () => {
       <h3 className="text-[1.25rem] text-light font-semibold md:tracking-[0.0023rem] leading-7">Frequently asked questions</h3>
       <Accordion type="multiple" className="w-full">
         {faqs.map((faq, index) => (
-          <AccordionItem value={`item${index + 1}`}>
+          <AccordionItem value={`item${index + 1}`} key={faq.question}>
             <AccordionTrigger className="!text-[1rem] pe-2 !py-3">{faq.question}</AccordionTrigger>
             <AccordionContent className="text-[1rem] text-foreground/70  md:max-w-[700px]">{faq.answer}</AccordionContent>
           </AccordionItem>

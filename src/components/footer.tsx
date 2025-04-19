@@ -69,7 +69,7 @@ export const Footer = () => {
 
       <Separator className="my-2" />
 
-      <div className="flex flex-col gap-y-[12px] lg:flex-row justify-center lg:gap-x-8 py-3 max-md:pb-8 lg:pt-7">
+      <div className="flex flex-col gap-y-[12px] lg:flex-row justify-center lg:gap-x-8 py-3 max-md:pb-0 lg:pt-7">
         <Select>
           <SelectTrigger className="border-0  !text-primary text-[14px] !bg-background !outline-0 !ring-0">
             <SelectValue placeholder="International sites" />

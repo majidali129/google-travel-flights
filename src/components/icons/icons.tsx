@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 
 export const TravelIcon = ({ className }: { className?: string }) => (
-  <svg enable-background="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" focusable="false" className="HhI4X NMm5M">
+  <svg enableBackground="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" focusable="false" className="HhI4X NMm5M">
     <g>
       <rect fill="none" height="24" width="24"></rect>
       <path
@@ -13,7 +13,7 @@ export const TravelIcon = ({ className }: { className?: string }) => (
 );
 
 export const ExploreIcon = () => (
-  <svg enable-background="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" focusable="false" className="HhI4X NMm5M">
+  <svg enableBackground="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" focusable="false" className="HhI4X NMm5M">
     <rect fill="none" height="24" width="24"></rect>
     <path
       className="fill-sky-200"
@@ -22,7 +22,7 @@ export const ExploreIcon = () => (
   </svg>
 );
 export const FlightsIcon = () => (
-  <svg enable-background="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" focusable="false" className="HhI4X NMm5M">
+  <svg enableBackground="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" focusable="false" className="HhI4X NMm5M">
     <rect fill="none" height="24" width="24"></rect>
     <path
       className="fill-sky-200"
@@ -31,7 +31,7 @@ export const FlightsIcon = () => (
   </svg>
 );
 export const HotelsIcon = () => (
-  <svg enable-background="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" focusable="false" className="HhI4X NMm5M">
+  <svg enableBackground="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" focusable="false" className="HhI4X NMm5M">
     <g>
       <rect fill="none" height="24" width="24"></rect>
     </g>
@@ -44,7 +44,7 @@ export const HotelsIcon = () => (
 );
 
 export const VacationRentalIcon = () => (
-  <svg enable-background="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" focusable="false" className="HhI4X NMm5M">
+  <svg enableBackground="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18" focusable="false" className="HhI4X NMm5M">
     <g>
       <g>
         <rect fill="none" height="24" width="24"></rect>
@@ -79,7 +79,7 @@ export const ActivityIcon = () => (
 );
 export const BellIcon = () => (
   <svg width="40" height="40" viewBox="0 0 40 40" fill="none" focusable="false" className=" NMm5M w-[30px] h-[30px] md:!w-[40px] md:!h-[40px] ">
-    <g clip-path="url(#a)">
+    <g clipPath="url(#a)">
       <path
         d="M24.667 21.333v4.5h-12v-10.5c0-3.315 2.685-6 6-6 1.275 0 2.46.39 3.42 1.08l2.145-2.145a8.805 8.805 0 0 0-3.315-1.635v-1.05a2.247 2.247 0 0 0-2.25-2.25 2.247 2.247 0 0 0-2.25 2.25v1.05a8.98 8.98 0 0 0-6.75 8.7v10.5h-3v3h24v-3h-3v-4.5h-3Zm-6 12c1.65 0 3-1.35 3-3h-6c0 1.65 1.35 3 3 3Zm18-21h-4.5v-4.5h-3v4.5h-4.5v3h4.5v4.5h3v-4.5h4.5v-3Z"
         fill="#1A73E8"

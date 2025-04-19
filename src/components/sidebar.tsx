@@ -11,7 +11,7 @@ const Sidebar = forwardRef<HTMLElement, { isOpen: boolean }>(({ isOpen }, ref) =
       } grid grid-rows-[30%_40%_30%] lg:grid-rows-[33%_33%_34%]`}
     >
       <ul className="w-full border-b pe-[16px]">
-        <NavLink to={"/"} className={"*:text-white flex items-center min-h-[48px]  rounded-r-full gap-[24px]  ps-6"}>
+        <NavLink to={"/"} className={"*:text-white flex items-center min-h-[48px] hover:bg-border/30  rounded-r-full gap-[24px]  ps-6"}>
           <PcCase className="scale-95" />
           <span className="text-[15px] -mt-0.5">Travel</span>
         </NavLink>
@@ -19,17 +19,17 @@ const Sidebar = forwardRef<HTMLElement, { isOpen: boolean }>(({ isOpen }, ref) =
           <Globe2Icon />
           <span className="text-[15px] -mt-0.5">Explore</span>
         </NavLink>
-        <NavLink to={"/"} className={" flex items-center min-h-[48px] bg-primary/20 text-primary  rounded-r-full gap-[24px]  ps-6"}>
+        <NavLink to={"/"} className={" flex items-center min-h-[48px] bg-primary/20  text-primary  rounded-r-full gap-[24px]  ps-6"}>
           <Plane />
           <span className="text-[15px] -mt-0.5">Flights</span>
         </NavLink>
-        <NavLink to={"/"} className={"*:text-white flex items-center min-h-[48px]  rounded-r-full gap-[24px]  ps-6"}>
+        <NavLink to={"/"} className={"*:text-white flex items-center min-h-[48px] hover:bg-border/30  rounded-r-full gap-[24px]  ps-6"}>
           <Bed />
           <span className="text-[15px] -mt-0.5">Hotels</span>
         </NavLink>
       </ul>
       <ul className="w-full border-b pe-[16px] pb-[3px]">
-        <NavLink to={"/"} className={"*:text-white flex items-center min-h-[48px]  rounded-r-full gap-[24px]  ps-6"}>
+        <NavLink to={"/"} className={"*:text-white flex items-center min-h-[48px] hover:bg-border/30  rounded-r-full gap-[24px]  ps-6"}>
           <ChartSpline className="scale-95" />
           <span className="text-[15px] -mt-0.5">Tracked Flight Prices</span>
         </NavLink>
@@ -41,7 +41,7 @@ const Sidebar = forwardRef<HTMLElement, { isOpen: boolean }>(({ isOpen }, ref) =
           <Banknote />
           <span className="text-[15px] -mt-0.5">Change Currencty</span>
         </NavLink>
-        <NavLink to={"/"} className={"*:text-white flex items-center min-h-[48px]  rounded-r-full gap-[24px]  ps-6"}>
+        <NavLink to={"/"} className={"*:text-white flex items-center min-h-[48px] hover:bg-border/30  rounded-r-full gap-[24px]  ps-6"}>
           <MapPin />
           <span className="text-[15px] -mt-0.5">Change Location</span>
         </NavLink>
@@ -55,7 +55,7 @@ const Sidebar = forwardRef<HTMLElement, { isOpen: boolean }>(({ isOpen }, ref) =
           <MessageSquareWarning />
           <span className="text-[15px] -mt-0.5">Feedback</span>
         </NavLink>
-        <NavLink to={"/"} className={"*:text-white flex items-center min-h-[48px]  rounded-r-full gap-[24px]  ps-6"}>
+        <NavLink to={"/"} className={"*:text-white flex items-center min-h-[48px] hover:bg-border/30  rounded-r-full gap-[24px]  ps-6"}>
           <HelpCircle className="scale-95" />
           <span className="text-[15px] -mt-0.5">Help</span>
         </NavLink>

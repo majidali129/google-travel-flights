@@ -18,8 +18,8 @@ const FlightsForm = ({ className }: HTMLAttributes<HTMLDivElement>) => {
     setFrom(e.target.value);
   };
   return (
-    <div className="max-w-5xl mx-auto px-4">
-      <div className="lg:h-[156px] h-[185px] shadow-xl  lg:bg-[#36373b] relative rounded-md lg:shadow">
+    <div className="max-w-5xl mx-auto lg:px-4 max-lg:px-4">
+      <div className="lg:h-[156px] h-[190px] shadow-xl  lg:bg-[#36373b] relative rounded-md lg:shadow">
         <div className="pt-2 lg:px-4  space-y-[9px]">
           <div className="  gap-2 flex items-center">
             <Select>
@@ -59,14 +59,14 @@ const FlightsForm = ({ className }: HTMLAttributes<HTMLDivElement>) => {
             <div className="grid grid-cols-2 gap-2 relative max-lg:!max-h-7 lg:h-12">
               <div className="flex items-center gap-0.5 border px-[16px] rounded-[3px] focus-within:border-2 focus-within:border-primary">
                 <CircleSmall />
-                <Input type="text" value={from} className="lg:py-[27px] py-6 border-0 !bg-transparent font-semibold !text-[1rem] focus-visible:ring-0" onChange={handleChangeFrom} />
+                <Input type="text" value={from} className="lg:py-[27px] py-[22.5px] border-0 !bg-transparent font-semibold !text-[1rem] focus-visible:ring-0" onChange={handleChangeFrom} />
               </div>
-              <div className="lg:w-9 lg:h-9 h-8 w-8 rounded-full absolute sss bg-background lg:bg-[#36373b]  flex items-center justify-center left-1/2 -translate-x-1/2 top-2.5">
+              <div className="lg:w-9 lg:h-9 h-8 w-8 rounded-full absolute sss bg-background lg:bg-[#36373b]  flex items-center justify-center left-1/2 -translate-x-1/2 top-2">
                 <ArrowRightLeft className="w-4 h-4" />
               </div>
               <div className="flex items-center gap-0.5 border px-6 rounded-[3px] focus-within:border-primary focus-within:border-2">
                 <MapPin className="w-6 h-6 scale-90" />
-                <Input type="text" autoFocus value={"Where to?"} className="lg:py-[27px]  border-0 !bg-transparent font-semibold !text-[1rem] focus-visible:ring-0 opacity-80 -mt-1" onChange={handleChangeFrom} />
+                <Input type="text" autoFocus value={"Where to?"} className="lg:py-[27px] py-[22.5px]  border-0 !bg-transparent font-semibold !text-[1rem] focus-visible:ring-0 opacity-80 -mt-1" onChange={handleChangeFrom} />
               </div>
             </div>
             <div className="lg:min-h-[56px] relative max-lg:top-8">
@@ -74,7 +74,7 @@ const FlightsForm = ({ className }: HTMLAttributes<HTMLDivElement>) => {
                 <Popover>
                   <div className=" grid grid-cols-[49.93%_0.3%_49.5%] lg:grid-cols-[54%_1%_45%] border border-border rounded-[3px]">
                     <PopoverTrigger asChild className="w-full">
-                      <Button id="date" variant={"outline"} className={cn("h-full !ps-[17px] justify-start font-normal flex gap-[9px] border-0 !bg-transparent", !date && "text-muted-foreground")}>
+                      <Button id="date" variant={"outline"} className={cn("h-full !ps-[17px] py-3 justify-start font-normal flex gap-[9px] border-0 !bg-transparent", !date && "text-muted-foreground")}>
                         <CalendarIcon className="!w-5 !h-5" />
                         {date?.from ? format(date.from, "LLL dd, y") : <span className="opacity-60 text-[1rem] -mt-0.5">Departure</span>}
                       </Button>

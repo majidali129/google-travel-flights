@@ -2,9 +2,9 @@ import { Info } from "lucide-react";
 
 const CheapFlights = () => {
   return (
-    <div className=" pt-10 lg:pt-[30px] px-4">
+    <div className=" pt-[38px] lg:pt-[30px] px-4">
       <div className="">
-        <h3 className=" flex lg:items-center lg:gap-2  text-[1.25rem] text-light font-semibold md:tracking-[0.0023rem] leading-7 mb-[24px]">
+        <h3 className=" flex lg:items-center lg:gap-2  text-[1.25rem] text-light font-semibold md:tracking-[0.0023rem] leading-7 mb-[22px]">
           <span>Find cheap flights from Faisalabad to anywhere</span>
           <Info className="text-light/40 w-6 h-6 lg:w-4 lg:h-4" />
         </h3>

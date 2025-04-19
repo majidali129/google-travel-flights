@@ -20,10 +20,10 @@ const Header = ({ setIsOpen }: HeaderProps) => {
     setIsOpen((prevOpen) => !prevOpen);
   };
   return (
-    <nav className="bg-background text-white px-5 pe-3 lg:px-4 md:pe-4 py-3.5 lg:py-3  border-b border-border fixed w-full z-40">
+    <nav className="bg-background text-white max-sm:space-y-2.5 px-5 pe-3 lg:px-4 md:pe-4 py-2.5 pb-0 lg:py-3  border-b border-border fixed w-full z-40">
       <div className="flex items-center justify-between w-full">
         <div className="flex items-center gap-[34px]">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4 lg:gap-2">
             <button
               onClick={(e) => {
                 handleSidebarToggle();
@@ -40,7 +40,11 @@ const Header = ({ setIsOpen }: HeaderProps) => {
 
           <ul className="hidden lg:flex items-center  gap-[6px] ">
             {navItems.map((item) => (
-              <NavLink to={item.href} className={"h-10 ps-3 pe-4 border border-border rounded-[20px] flex items-center gap-[8px] hover:text-primary hover:bg-primary/2 last:bg-primary/18 last:text-primary last:border-0"}>
+              <NavLink
+                to={item.href}
+                key={item.href}
+                className={"h-10 ps-3 pe-4 border border-border rounded-[20px] flex items-center gap-[8px] hover:text-primary hover:bg-primary/2 last:bg-primary/18 last:text-primary last:border-0"}
+              >
                 {cloneElement(item.icon, {
                   className: "w-4 h-4 !text-sky-400",
                 })}
@@ -59,10 +63,10 @@ const Header = ({ setIsOpen }: HeaderProps) => {
           <CircleUser className="h-9 w-9" />
         </div>
       </div>
-      <div className="h-12 lg:hidden">
-        <ul className="flex  items-end  justify-around  gap-[6px] h-full">
+      <div className="h-[48px] lg:hidden">
+        <ul className="flex  justify-around  gap-[13px] h-full">
           {navItems.map((item) => (
-            <NavLink to={item.href} className={" flex items-center nth-[3]:text-primary nth-[3]:border-b-3 nth-[3]:border-primary nth-[3]:pb-[9px] nth-[3]:-mb-[13px]"}>
+            <NavLink to={item.href} key={item.href} className={" flex items-center "}>
               <span className="text-sm font-semibold tracking-wide">{item.label}</span>
             </NavLink>
           ))}
