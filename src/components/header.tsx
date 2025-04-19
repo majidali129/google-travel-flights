@@ -40,7 +40,7 @@ const Header = ({ setIsOpen }: HeaderProps) => {
 
           <ul className="hidden lg:flex items-center  gap-[6px] ">
             {navItems.map((item) => (
-              <NavLink to={item.href} className={"h-10 ps-3 pe-4 border border-border rounded-[20px] flex items-center gap-[8px] hover:text-primary hover:bg-primary/2 last:bg-primary/18 last:text-primary"}>
+              <NavLink to={item.href} className={"h-10 ps-3 pe-4 border border-border rounded-[20px] flex items-center gap-[8px] hover:text-primary hover:bg-primary/2 last:bg-primary/18 last:text-primary last:border-0"}>
                 {cloneElement(item.icon, {
                   className: "w-4 h-4 !text-sky-400",
                 })}
