@@ -36,7 +36,6 @@ const Tools = () => {
                 </div>
                 <div className="h-[26px] w-[26px] bg-[#2c323e]/80 border border-primary/70  absolute rotate-[-135deg] angle  top-1/2 -translate-y-1/2 -right-[13px] z-40 hidden group-data-[state=active]:block"></div>
               </TabsTrigger>
-              {/* <TabsTrigger value="password">Password</TabsTrigger> */}
             </TabsList>
             <TabsContent className="space-y-4 px-0" value="Find_the_cheapest">
               <h3 className="text-2xl pt-3">Insightful tools help you choose your trip dates</h3>
@@ -44,8 +43,7 @@ const Tools = () => {
                 If your travel plans are flexible, use the form above to start searching for a specific trip. Then, play around with the Date grid and Price graph options on the Search page to find the cheapest days to get to your
                 destination – and back again for round trips.
               </p>
-              {/* <img src={cheapDays} alt="" className="w-full" /> */}
-              <div className="bg-[url(../../public/svgs/days.svg)] h-[300px] w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
+              <div className="bg-[url(/public/svgs/days.svg)] h-[300px] w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
             </TabsContent>
             <TabsContent value="See_the_whole_picture">
               <h3 className="text-2xl pt-3">Get smart insights about flight prices</h3>
@@ -53,8 +51,7 @@ const Tools = () => {
                 Real-time insights can tell you if a fare is lower or higher than usual, and if the fare you’re seeing is a good price. So, you don’t have to worry about paying too much for a flight or missing out on the cheapest
                 time to book. On some routes, you might also see historical data that helps you better understand how flight prices vary over time.
               </p>
-              {/* <img src={cheapDays} alt="" className="w-full" /> */}
-              <div className="bg-[url(../../public/svgs/insights.svg)] h-[300px] w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
+              <div className="bg-[url(/public/svgs/insights.svg)] h-[300px] w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
             </TabsContent>
             <TabsContent value="track_prices">
               <h3 className="text-2xl pt-3">Monitor flight prices and make sure you never miss a price change</h3>
@@ -62,8 +59,7 @@ const Tools = () => {
                 Effortlessly track prices for specific travel dates or for any dates, if your plans are flexible, to uncover the best deals. You can easily set up tracking for multiple routes while searching for flights and opt-in
                 to receive email updates when the price changes. Once that's done, you can come back to your Tracked Flights page to monitor prices whenever you like, or relax knowing you’ll never miss a flight deal.
               </p>
-              {/* <img src={cheapDays} alt="" className="w-full" /> */}
-              <div className="bg-[url(../../public/svgs/tracking_prices.svg)] h-[300px] w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
+              <div className="bg-[url(/public/svgs/tracking_prices.svg)] h-[300px] w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
             </TabsContent>
           </div>
         </Tabs>
@@ -84,16 +80,13 @@ const Tools = () => {
                 If your travel plans are flexible, use the form above to start searching for a specific trip. Then, play around with the Date grid and Price graph options on the Search page to find the cheapest days to get to your
                 destination – and back again for round trips.
               </p>
-              {/* <img src={cheapDays} alt="" className="w-full" /> */}
-              <div className="bg-[url(../../public/svgs/days.svg)] h-[150px] sm:max-lg:w-[230px] lg:h-[300px] lg:w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
+              <div className="bg-[url(/public/svgs/days.svg)] h-[150px] sm:max-lg:w-[230px] lg:h-[300px] lg:w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
             </div>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2" className="mb-2 border-b-0">
           <AccordionTrigger className="md:!text-[1rem] !pt-7 lg:py-5 !pb-[22px] ps-6 pe-3 lg:pe-1.5 bg-primary/10 data-[state=open]:rounded-b-none">
-            {/* <CalendarDaysIcon className="text-[#1A73E8] w-7 h-7 -mt-5" /> */}
             <ChartSpline className="text-[#1A73E8] self-start h-7 w-7" />
-            {/* <CalendarDays className="w-[30px] h-[30px] md:!h-9 md:!w-9 text-[#1A73E8]" /> */}
             <div className="flex flex-col w-full text-start gap-[11px]">
               <h5 className=" text-[1rem] leading-3">See the whole picture with price insights</h5>
               <p className="text-wrap">Price history and trend data show you when to book to get the best price on your flight</p>
@@ -106,16 +99,13 @@ const Tools = () => {
                 Real-time insights can tell you if a fare is lower or higher than usual, and if the fare you’re seeing is a good price. So, you don’t have to worry about paying too much for a flight or missing out on the cheapest
                 time to book. On some routes, you might also see historical data that helps you better understand how flight prices vary over time.
               </p>
-              {/* <img src={cheapDays} alt="" className="w-full" /> */}
-              <div className="bg-[url(../../public/svgs/insights.svg)] sm:max-lg:w-[230px] h-[150px] lg:h-[300px] lg:w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
+              <div className="bg-[url(/public/svgs/insights.svg)] sm:max-lg:w-[230px] h-[150px] lg:h-[300px] lg:w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
             </div>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3" className="mb-2 border-b-0">
           <AccordionTrigger className="md:!text-[1rem] !py-6 lg:!py-5 ps-6 pe-3 lg:pe-1.5 bg-primary/10 data-[state=open]:rounded-b-none">
-            {/* <CalendarDaysIcon className="text-[#1A73E8] w-7 h-7 -mt-5" /> */}
             <BellDotIcon className="self-start w-7 h-7 text-[#1A73E8]" />
-            {/* <CalendarDays className="w-[30px] h-[30px] md:!h-9 md:!w-9 text-[#1A73E8]" /> */}
             <div className="flex flex-col w-full text-start gap-[11px]">
               <h5 className=" text-[1rem] leading-3">Track prices for a trip</h5>
               <p className="text-wrap">Not ready to book yet? Observe price changes for a route or flight and get notified when prices drop.</p>
@@ -128,8 +118,7 @@ const Tools = () => {
                 Effortlessly track prices for specific travel dates or for any dates, if your plans are flexible, to uncover the best deals. You can easily set up tracking for multiple routes while searching for flights and opt-in
                 to receive email updates when the price changes. Once that's done, you can come back to your Tracked Flights page to monitor prices whenever you like, or relax knowing you’ll never miss a flight deal.
               </p>
-              {/* <img src={cheapDays} alt="" className="w-full" /> */}
-              <div className="bg-[url(../../public/svgs/tracking_prices.svg)] sm:max-lg:w-[230px] h-[150px] lg:h-[300px] lg:w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
+              <div className="bg-[url(/public/svgs/tracking_prices.svg)] sm:max-lg:w-[230px] h-[150px] lg:h-[300px] lg:w-[460px] bg-no-repeat bg-center bg-cover !mt-7"></div>
             </div>
           </AccordionContent>
         </AccordionItem>
