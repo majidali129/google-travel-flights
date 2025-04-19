@@ -4,9 +4,9 @@ const CheapFlights = () => {
   return (
     <div className=" pt-10 lg:pt-[30px] px-4">
       <div className="">
-        <h3 className="flex items-center gap-2 text-[1.25rem] text-light font-semibold md:tracking-[0.0023rem] leading-7 mb-[24px]">
+        <h3 className=" flex lg:items-center lg:gap-2  text-[1.25rem] text-light font-semibold md:tracking-[0.0023rem] leading-7 mb-[24px]">
           <span>Find cheap flights from Faisalabad to anywhere</span>
-          <Info className="text-light/40 w-4 h-4" />
+          <Info className="text-light/40 w-6 h-6 lg:w-4 lg:h-4" />
         </h3>
         <div className="ps-0.5 flex items-center gap-2.5 pb-[17px] *:hover:text-primary *:cursor-pointer">
           <div className="py-1 px-2.5 text-primary rounded-full w-fit bg-primary/20">Lahore</div>

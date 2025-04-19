@@ -46,7 +46,7 @@ export const Footer = () => {
       </div>
 
       {/* Links */}
-      <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 py-6">
+      <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 lg:gap-y-2 py-6 max-lg:px-4">
         <Link to="#" className=" transition-colors text-primary hover:underline">
           About
         </Link>
