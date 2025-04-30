@@ -1,4 +1,4 @@
-import { useMediaQuery } from "@/hooks/use-media-query";
+import { useMediaQuery } from "@/hooks";
 import { Link } from "react-router";
 
 const routes = [

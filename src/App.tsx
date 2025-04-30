@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Header } from "./components";
 import { Sidebar } from "./components/layout/sidebar";
-import { useClickOutside } from "./hooks/use-click-outside";
-import { useToggleSidebar } from "./hooks/use-toggle-sidebar";
+import { useClickOutside, useToggleSidebar } from "./hooks";
 import { FlightsPage } from "./pages";
 
 const App = () => {
