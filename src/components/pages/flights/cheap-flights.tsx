@@ -14,7 +14,7 @@ const CheapFlights = () => {
           <div className="py-1 px-2.5 border border-border text-light rounded-full w-fit">Sialkot</div>
           <div className="py-1 px-2.5 border border-border text-light rounded-full w-fit">Multan</div>
         </div>
-        <div className="h-[180px] group lg:h-[300px] rounded-xl relative bg-[url(/public/images/staticmap.png)]  bg-no-repeat bg-center cursor-pointer">
+        <div className="h-[180px] group lg:h-[300px] rounded-xl relative bg-[url(../assets/images/staticmap.png)]  bg-no-repeat bg-center cursor-pointer">
           <div className="absolute  inset-0 z-30  h-full w-full flex items-center justify-center group-hover:bg-black/30 rounded-xl ease-in-out transition-all duration-300">
             <span className="bg-[#202125] hover:bg-[#202125]/80 py-1.5  rounded-full px-4 hover:text-primary">Explore destination</span>
           </div>

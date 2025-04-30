@@ -1,5 +1,6 @@
-import islamabad from "../../public/images/islamabad.jpg";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
+import islamabad from "@/assets/images/islamabad.jpg";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+// import islamabad from ''
 
 const Destinations = () => {
   return (

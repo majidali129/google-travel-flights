@@ -1,14 +1,14 @@
+import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import { format } from "date-fns";
 import { ArrowRightLeft, Calendar as CalendarIcon, CircleSmall, MapPin, SearchIcon, User } from "lucide-react";
 import { ChangeEvent, HTMLAttributes, useState } from "react";
 import { DateRange } from "react-day-picker";
-import { Input } from "./ui/input";
-import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
-import { Select, SelectContent, SelectTrigger, SelectValue } from "./ui/select";
 
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { Select, SelectContent, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 const FlightsForm = ({ className }: HTMLAttributes<HTMLDivElement>) => {
   const [from, setFrom] = useState("Multan");

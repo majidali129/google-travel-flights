@@ -1,8 +1,8 @@
+import logo from "@/assets/svgs/logo.svg";
 import { AlignJustify, CircleUser, Grip, Sun } from "lucide-react";
 import { cloneElement, Dispatch, SetStateAction } from "react";
 import { NavLink } from "react-router";
-import logo from "../../public/svgs/logo.svg";
-import { ExploreIcon, FlightsIcon, HotelsIcon, TravelIcon, VacationRentalIcon } from "./icons/icons";
+import { ExploreIcon, FlightsIcon, HotelsIcon, TravelIcon, VacationRentalIcon } from "../icons/icons";
 
 type HeaderProps = {
   setIsOpen: Dispatch<SetStateAction<boolean>>;

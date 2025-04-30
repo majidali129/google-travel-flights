@@ -1,7 +1,7 @@
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Globe, MapPin, ReceiptIndianRupee } from "lucide-react";
 import { Link } from "react-router";
-import { Separator } from "./ui/separator";
+import { Separator } from "../ui/separator";
 
 export const Footer = () => {
   return (

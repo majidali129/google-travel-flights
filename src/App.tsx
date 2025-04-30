@@ -1,16 +1,9 @@
 import { useState } from "react";
-import { CheapFlights } from "./components/cheap-flights";
-import { Destinations } from "./components/destinations";
-import { Faqs } from "./components/faqs";
-import { FlightsForm } from "./components/flights-form";
-import { Footer } from "./components/footer";
-import { Header } from "./components/header";
-import { Hero } from "./components/hero";
-import { PopularRoutes } from "./components/popular-routes";
-import { Sidebar } from "./components/sidebar";
-import { Tools } from "./components/tools";
+import { Header } from "./components";
+import { Sidebar } from "./components/layout/sidebar";
 import { useClickOutside } from "./hooks/use-click-outside";
 import { useToggleSidebar } from "./hooks/use-toggle-sidebar";
+import { FlightsPage } from "./pages";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,17 +18,7 @@ const App = () => {
     <>
       <Sidebar isOpen={isOpen} ref={sidebarRef} />
       <Header setIsOpen={setIsOpen} />
-      <Hero />
-      <div className=" lg:max-w-5xl mx-auto  space-y-3 relative top-[109px] lg:top-[65.1px] lg:py-[29px] ">
-        <FlightsForm />
-        <CheapFlights />
-        <Tools />
-        <Destinations />
-        <Faqs />
-        <PopularRoutes />
-        <Footer />
-      </div>
-      <div className=" h-[140px] lg:h-[65.1px] bg-background"></div>
+      <FlightsPage />
     </>
   );
 };
